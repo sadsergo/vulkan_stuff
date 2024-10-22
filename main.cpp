@@ -1,9 +1,17 @@
 #include "vulkan/vulkan.h"
+#include "vulkan_files/vk_engine.h"
 #include <iostream>
-#include "vk-bootstrap/VkBootstrap.h"
 
 int
-main()
+main(int argc, char* argv[])
 {
-    std::cout << "111\n";
+    VulkanEngine engine;
+
+    engine.init();
+
+    engine.run();
+
+    engine.cleanup();
+
+    return 0;
 }
