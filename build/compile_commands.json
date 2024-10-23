@@ -1,0 +1,47 @@
+[
+{
+  "directory": "/home/james/Desktop/vulkan/vulkan_stuff/build",
+  "command": "/usr/bin/c++ -DFMT_LOCALE -DFMT_SHARED -I/home/james/Desktop/vulkan/vulkan_stuff/prj -I/usr/include/SDL2 -I/home/james/Desktop/vulkan/vulkan_stuff/vk-bootstrap -g -o CMakeFiles/prj.dir/main.cpp.o -c /home/james/Desktop/vulkan/vulkan_stuff/main.cpp",
+  "file": "/home/james/Desktop/vulkan/vulkan_stuff/main.cpp"
+},
+{
+  "directory": "/home/james/Desktop/vulkan/vulkan_stuff/build",
+  "command": "/usr/bin/c++ -DFMT_LOCALE -DFMT_SHARED -I/home/james/Desktop/vulkan/vulkan_stuff/prj -I/usr/include/SDL2 -I/home/james/Desktop/vulkan/vulkan_stuff/vk-bootstrap -g -o CMakeFiles/prj.dir/vk-bootstrap/VkBootstrap.cpp.o -c /home/james/Desktop/vulkan/vulkan_stuff/vk-bootstrap/VkBootstrap.cpp",
+  "file": "/home/james/Desktop/vulkan/vulkan_stuff/vk-bootstrap/VkBootstrap.cpp"
+},
+{
+  "directory": "/home/james/Desktop/vulkan/vulkan_stuff/build",
+  "command": "/usr/bin/c++ -DFMT_LOCALE -DFMT_SHARED -I/home/james/Desktop/vulkan/vulkan_stuff/prj -I/usr/include/SDL2 -I/home/james/Desktop/vulkan/vulkan_stuff/vk-bootstrap -g -o CMakeFiles/prj.dir/vulkan_files/vk_descriptors.cpp.o -c /home/james/Desktop/vulkan/vulkan_stuff/vulkan_files/vk_descriptors.cpp",
+  "file": "/home/james/Desktop/vulkan/vulkan_stuff/vulkan_files/vk_descriptors.cpp"
+},
+{
+  "directory": "/home/james/Desktop/vulkan/vulkan_stuff/build",
+  "command": "/usr/bin/c++ -DFMT_LOCALE -DFMT_SHARED -I/home/james/Desktop/vulkan/vulkan_stuff/prj -I/usr/include/SDL2 -I/home/james/Desktop/vulkan/vulkan_stuff/vk-bootstrap -g -o CMakeFiles/prj.dir/vulkan_files/vk_engine.cpp.o -c /home/james/Desktop/vulkan/vulkan_stuff/vulkan_files/vk_engine.cpp",
+  "file": "/home/james/Desktop/vulkan/vulkan_stuff/vulkan_files/vk_engine.cpp"
+},
+{
+  "directory": "/home/james/Desktop/vulkan/vulkan_stuff/build",
+  "command": "/usr/bin/c++ -DFMT_LOCALE -DFMT_SHARED -I/home/james/Desktop/vulkan/vulkan_stuff/prj -I/usr/include/SDL2 -I/home/james/Desktop/vulkan/vulkan_stuff/vk-bootstrap -g -o CMakeFiles/prj.dir/vulkan_files/vk_images.cpp.o -c /home/james/Desktop/vulkan/vulkan_stuff/vulkan_files/vk_images.cpp",
+  "file": "/home/james/Desktop/vulkan/vulkan_stuff/vulkan_files/vk_images.cpp"
+},
+{
+  "directory": "/home/james/Desktop/vulkan/vulkan_stuff/build",
+  "command": "/usr/bin/c++ -DFMT_LOCALE -DFMT_SHARED -I/home/james/Desktop/vulkan/vulkan_stuff/prj -I/usr/include/SDL2 -I/home/james/Desktop/vulkan/vulkan_stuff/vk-bootstrap -g -o CMakeFiles/prj.dir/vulkan_files/vk_initializers.cpp.o -c /home/james/Desktop/vulkan/vulkan_stuff/vulkan_files/vk_initializers.cpp",
+  "file": "/home/james/Desktop/vulkan/vulkan_stuff/vulkan_files/vk_initializers.cpp"
+},
+{
+  "directory": "/home/james/Desktop/vulkan/vulkan_stuff/build",
+  "command": "/usr/bin/c++ -DFMT_LOCALE -DFMT_SHARED -I/home/james/Desktop/vulkan/vulkan_stuff/prj -I/usr/include/SDL2 -I/home/james/Desktop/vulkan/vulkan_stuff/vk-bootstrap -g -o CMakeFiles/prj.dir/vulkan_files/vk_loader.cpp.o -c /home/james/Desktop/vulkan/vulkan_stuff/vulkan_files/vk_loader.cpp",
+  "file": "/home/james/Desktop/vulkan/vulkan_stuff/vulkan_files/vk_loader.cpp"
+},
+{
+  "directory": "/home/james/Desktop/vulkan/vulkan_stuff/build",
+  "command": "/usr/bin/c++ -DFMT_LOCALE -DFMT_SHARED -I/home/james/Desktop/vulkan/vulkan_stuff/prj -I/usr/include/SDL2 -I/home/james/Desktop/vulkan/vulkan_stuff/vk-bootstrap -g -o CMakeFiles/prj.dir/vulkan_files/vk_pipelines.cpp.o -c /home/james/Desktop/vulkan/vulkan_stuff/vulkan_files/vk_pipelines.cpp",
+  "file": "/home/james/Desktop/vulkan/vulkan_stuff/vulkan_files/vk_pipelines.cpp"
+},
+{
+  "directory": "/home/james/Desktop/vulkan/vulkan_stuff/build",
+  "command": "/usr/bin/c++ -DFMT_LOCALE -DFMT_SHARED -I/home/james/Desktop/vulkan/vulkan_stuff/prj -I/usr/include/SDL2 -I/home/james/Desktop/vulkan/vulkan_stuff/vk-bootstrap -g -o CMakeFiles/prj.dir/vulkan_files/vk_types.cpp.o -c /home/james/Desktop/vulkan/vulkan_stuff/vulkan_files/vk_types.cpp",
+  "file": "/home/james/Desktop/vulkan/vulkan_stuff/vulkan_files/vk_types.cpp"
+}
+]
