@@ -1,6 +1,7 @@
 #pragma 
 
 #include "vk_types.h"
+#include "vk_descriptors.h"
 
 struct DeletionQueue
 {
@@ -37,6 +38,13 @@ constexpr unsigned int FRAME_OVERLAP = 2;
 class VulkanEngine
 {
 public:
+    VkPipeline _gradientPipeline;
+	VkPipelineLayout _gradientPipelineLayout;
+
+    DescriptorAllocator globalDescriptorAllocator;
+
+	VkDescriptorSet _drawImageDescriptors;
+	VkDescriptorSetLayout _drawImageDescriptorLayout;
 
     bool _isInitialized {false};
     int _frameNumber {0};
@@ -96,5 +104,10 @@ private:
     void create_swapchain(uint32_t width, uint32_t height);
     void destroy_swapchain();
     void draw_background(VkCommandBuffer cmd);
+
+    void init_descriptors();
+
+    void init_pipelines();
+	void init_background_pipelines();
 };
 
